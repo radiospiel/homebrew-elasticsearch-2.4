@@ -1,0 +1,1 @@
+# homebrew-elasticsearch-2.4
