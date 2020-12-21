@@ -11,7 +11,7 @@ class ElasticsearchAT24 < Formula
 
   deprecate! :date => "2018-02-28"
 
-  depends_on :java => "openjdk@11"
+  depends_on :java => "openjdk"
 
   def cluster_name
     "elasticsearch_#{ENV["USER"]}"
